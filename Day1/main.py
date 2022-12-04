@@ -38,6 +38,7 @@ for calorie in individual_calories_formated:
 #total calorie in each elf
 total_individual_calories = [sum(calorie_in_each_elf) for calorie_in_each_elf in total_individual_calories]
 
+# ----------------------------------------------------------------------------- #
 
 
 
@@ -49,3 +50,6 @@ total_individual_calories.reverse()
 
 #sum of calories in top 3 elves containing more calories
 print(sum(total_individual_calories[:3]))
+
+
+# ----------------------------------------------------------------------------- #
